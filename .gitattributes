@@ -1,11 +1,6 @@
-* text=auto eol=lf
+* text=auto
 
-*.blade.php diff=html
-*.css diff=css
-*.html diff=html
-*.md diff=markdown
-*.php diff=php
-
-/.github export-ignore
-CHANGELOG.md export-ignore
-.styleci.yml export-ignore
+# Force LF pour les scripts exécutés dans Docker/Linux
+*.sh text eol=lf
+Dockerfile text eol=lf
+render.yaml text eol=lf
